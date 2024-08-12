@@ -1,0 +1,90 @@
+09/09/2019 : Removed all mentions of 1 BHK 416 sq ft
+
+19/09/2019 : Added a 3bhk block in config section.
+Added 2 new banners, replacing old one instead,
+
+1 solo 3 bhk, 1 combined prices of all 3 units
+
+11/10/2019 :
+
+Fixed few JS errors on ty, fs and pp pages
+
+updated QS grab js code
+
+
+14/10/2019 :
+
+updated festive banners, removed the artists impression lines where needed
+
+23/10/2019 :
+
+updated the new festive banners
+
+04/12/2019:
+
+Changed new Banners and made changes in site as per session recording observations
+
+7/12/2029
+
+360 view changes and changies in section-order changed
+some sections order changed
+
+12/12/2019
+
+map image changed
+
+13/12/2019
+
+floor plan section changed
+
+31-12-2019
+
+oc recevied added to site and font style changed.
+
+10-01-2020
+
+Changed Backend Flow to Integromat from Zapier
+
+05-02-20
+
+image extension changed and optimise the site.
+
+25-02-20
+
+Changed few images and reduced JS load and cleared unnecessary files
+
+22-03-2020
+
+Changed phone number to a new one. which will be used only in LP and Ads. Old one will be used in GMB only.
+
+31-07-2020
+
+added 1,2 bhk flat in mulund west
+
+18-08-2020
+
+oc recieved backgroun color changes 
+1 bh and 2 bhk iframe splitted
+image resized and changed
+enquire now and call now added
+
+9-10-20
+Banner changed and nature iamge changed 
+
+02-11-20
+Banner Changed and pricing Changed
+
+30-11-20
+2 BHK Banner Removed 
+view floor plan CTA changed to download floor plan 
+nature section removed to make landing page shorter
+
+7-12-2020
+1 bhk and 2 bhk banner replaced
+2 bhk 360 view made hide
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+#Rule 1
+
+User-agent: *
+Disallow: ./thank-you.html
+Disallow: ./form-submit-failed.html
+
+Noindex: ./thank-you.html
+Noindex: ./form-submit-failed.html
