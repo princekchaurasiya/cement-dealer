@@ -22,15 +22,13 @@
     </script>
     <!-- End Google Tag Manager -->
 
-    <meta name="robots" content="noindex,nofollow">
+    <meta name="robots" content="index, follow">
     <meta charset="UTF-8">
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description"
-        content="Thank you for reaching out to our cement dealership. We appreciate your interest and will get back to you shortly with more information.">
-    <meta name="author" content="Cement Dealership - Your Trusted Source for Quality Cement">
-    <title>Thank You - Cement Dealership</title>
-
+    <meta name="description" content="Thank you for reaching out to Cement Dealer Shop. We appreciate your interest and will get back to you shortly with more information about our cement products and services.">
+    <meta name="author" content="Cement Dealer Shop - Your Premier Source for Quality Cement">
+    <title>Thank You - Cement Dealer Shop</title>
 
     <!-- css links -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -49,10 +47,9 @@
     <!--thank you navbar-->
     <nav class="navbar navz navbar-expand-lg fixed-top" id="scrollspynav">
         <a class="navbar-brand" href="./">
-            <img class="logo1" src="./assets/images/toutle-space-2.png" alt="Toutle Space Co Working Space in Mumbai"
-                title="Toutle Space Co Working Space in Mumbai">
+            <img class="logo1" src="./assets/images/logo.png" alt="Cement Dealer Shop Logo"
+                title="Cement Dealer Shop Logo">
         </a>
-
     </nav>
     <!-- end of thank you navbar -->
 
@@ -65,22 +62,20 @@
                         <span class="icon-tick tyicon"></span>
                     </p>
                     <h2 class="section-subtext black-header pb-5">
-                        Your Enquiry has been submitted.
+                        Your Enquiry has been Submitted
                     </h2>
 
                     <p class="pb-5">
-                        Thank you for your showing your interest Toutle Space. We will call you back soon.
+                        Thank you for showing interest in Cement Dealer Shop. We will contact you soon with more details about our cement products and services.
                     </p>
 
                     <p class="">
-                        You can get in touch with us at
+                        For immediate assistance, please contact us at:
                     </p>
 
                     <h3 class="pb-5">
-                        <a class="otherpagenumlink" href="tel:+91-9136698816">+91-9136698816</a>
+                        <a class="otherpagenumlink" href="tel:+91-9888727560">+91-9888727560</a>
                     </h3>
-
-
                 </div>
             </div>
         </div>
@@ -93,23 +88,22 @@
             <div class="row align-self-center justify-content-center footer-text">
                 <div class="col-lg-3 align-self-center halfcol">
                     <div class="row justify-content-center">
-                        <img class="img-fluid" src="assets/images/logo.png" alt="  Toutle Space "
-                            title="  Toutle Space  White Logo" width="" height="">
+                        <img class="img-fluid" src="assets/images/logo.png" alt="Cement Dealer Shop Logo"
+                            title="Cement Dealer Shop Logo" width="" height="">
                     </div>
-
                 </div>
                 <div class="col-lg-6 col-10 align-self-center halfcol">
                 </div>
                 <div class="col-lg-3 halfcol align-self-center text-center">
                     <p>
-                        <a href="https://www.facebook.com/toutlespace" class="soc-item" target="_blank">
-                            <img class="img-fluid" src="assets/images/facebook.png" alt="Toutle Space  Facebook Icon"
-                                title="Toutle Space  Facebook Link">
+                        <a href="https://www.facebook.com/cementdealership" class="soc-item" target="_blank">
+                            <img class="img-fluid" src="assets/images/facebook.png" alt="Cement Dealer Shop Facebook"
+                                title="Cement Dealer Shop Facebook Link">
                         </a>
                         &nbsp;
-                        <a href="https://www.instagram.com/toutlespace/" class="soc-item" target="_blank">
-                            <img class="img-fluid" src="assets/images/instagram.png" alt="Toutle Space  Facebook Icon"
-                                title="Toutle Space  Instagram Link">
+                        <a href="https://www.instagram.com/cementdealership/" class="soc-item" target="_blank">
+                            <img class="img-fluid" src="assets/images/instagram.png" alt="Cement Dealer Shop Instagram"
+                                title="Cement Dealer Shop Instagram Link">
                         </a>
                     </p>
                     <p class="mb-0">
@@ -119,19 +113,18 @@
                         </a>
                     </p>
                     <p class="mb-0">
-                        Copyright &copy; Toutle Space
+                        Copyright &copy; Cement Dealer Shop
                     </p>
-
                 </div>
                 <!-- sticky mob starts here-->
                 <div class="fixed-bottom d-block d-lg-none">
                     <div id="stickymob">
                         <div class="row stickybtn">
-                            <a class="col stickycall text-center stickycol stickybdr" href="tel:+91-9136698816">
+                            <a class="col stickycall text-center stickycol stickybdr" href="tel:+91-9888727560">
                                 CALL NOW
                             </a>
                             <a class="col stickyenq text-center stickycol" href="" data-toggle="modal"
-                                data-target="#jwmodal">
+                                data-target="#cementModal">
                                 ENQUIRE NOW
                             </a>
                         </div>

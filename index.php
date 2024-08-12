@@ -4,7 +4,7 @@
 <head>
     <!-- Google Tag Manager -->
     <script>
-        (function(w, d, s, l, i) {
+        (function (w, d, s, l, i) {
             w[l] = w[l] || [];
             w[l].push({
                 'gtm.start': new Date().getTime(),
@@ -23,7 +23,7 @@
     <meta charset="UTF-8">
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Toutle Space offers premium co-working spaces in Mumbai, designed to boost productivity with modern amenities and flexible plans.">
+    <meta name="description" content="Cement Dealer Shop provides high-quality cement products with reliable delivery and competitive pricing. Contact us for all your cement needs.">
     <meta name="author" content="All Cement Dealership - Your Trusted Source for Quality Cement in India">
 
     <title>Cement Dealership | Trusted Supplier for Premium Cement Products</title>
@@ -43,7 +43,7 @@
     <!-- navigation section -->
     <nav class="navbar navz navbar-expand-lg fixed-top" id="scrollspynav">
         <a class="navbar-brand" href="./">
-            <img class="logo1" src="assets/images/toutle-space-2.png" alt="Toutle Space  " title="Toutle Space  Logo">
+            <img class="logo1" src="assets/images/logo.png" alt="Cement Dealer Shop Logo" title="Cement Dealer Shop Logo">
         </a>
 
         <a class="navbar-toggler custnav" data-toggle="collapse" data-target="#navbarcollapse"
@@ -56,18 +56,21 @@
                     <a class="nav-link navlink nav-link-ltr" href="#secoverview">Overview</a>
                 </li>
                 <li class="nav-item navitem">
-                    <a class="nav-link navlink nav-link-ltr" href="#secamenities">Amenities</a>
+                    <a class="nav-link navlink nav-link-ltr" href="#secamenities">About Us</a>
                 </li>
                 <li class="nav-item navitem">
-                    <a class="nav-link navlink nav-link-ltr" href="#secconfig">Pricing</a>
+                    <a class="nav-link navlink nav-link-ltr" href="#secconfig">Services</a>
                 </li>
                 <li class="nav-item navitem">
-                    <a class="nav-link navlink nav-link-ltr" href="#secLocation">Location</a>
+                    <a class="nav-link navlink nav-link-ltr" href="#secCementTypes">Cement Types</a>
+                </li>
+                <li class="nav-item navitem">
+                    <a class="nav-link navlink nav-link-ltr" href="tel:+91-9888727560"><b>+91-9888727560</b></a>
                 </li>
 
                 <div class="d-lg-block d-none">
                     <li class="nav-item navitem">
-                        <a href="./" class=" btn btn-custom " data-toggle="modal" data-target="#jwmodal">Enquire
+                        <a href="./" class=" btn btn-custom " data-toggle="modal" data-target="#cementModal">Enquire
                             Now</a>
                     </li>
                 </div>
@@ -83,20 +86,16 @@
                     <div id="bannercarousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-lg-block d-none img-fluid h-100 w-100"
-                                    src="assets/images/toutle-space-desk-banner-6.png" alt="Co working space in Mumbai "
-                                    title="Toutle Space Desktop Banner">
-                                <img class="d-lg-none d-md-block img-fluid w-100"
-                                    src="assets/images/toutle-space-desk-banner-6.png" alt="Co working space in Mumbai "
-                                    title="Toutle Space Mobile Banner">
+                                <img class="d-block img-fluid h-100 w-100"
+                                    src="assets/images/cemnet dealership-desktop banner1.png"
+                                    alt="Best Cement Dealer in India"
+                                    title="Best Cement Dealer - 20 Years of Experience">
                             </div>
-                            <div class="carousel-item ">
-                                <img class="d-lg-block d-none img-fluid h-100 w-100"
-                                    src="assets/images/toutle-space-desk-banner-5.png" alt="Co working space in Mumbai "
-                                    title="Toutle Space  Desktop Banner">
-                                <img class="d-lg-none d-md-block img-fluid w-100"
-                                    src="assets/images/toutle-space-desk-banner-5.png" alt="Co working space in Mumbai "
-                                    title="Toutle Space  Mobile Banner">
+                            <div class="carousel-item">
+                                <img class="d-block img-fluid h-100 w-100"
+                                    src="assets/images/cemnet dealership-desktop banner2.png"
+                                    alt="Top Cement Dealer in India"
+                                    title="20 Years of Excellence in Cement Dealership">
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#bannercarousel" role="button" data-slide="prev">
@@ -111,6 +110,7 @@
                         </a>
                     </div>
                 </div>
+
                 <div class="col-lg-3 col-12" id="headercol2">
                     <div class="form-container">
                         <form id="formf1" action="contactf1.php" method="POST">
@@ -140,14 +140,14 @@
                                         id="phoneinputf1" pattern="[6-9]{1}[0-9]{9}" required>
                                 </div>
                             </div>
-                            <!--
+
                         <div class="form-group mb-0">
                            <label for="emaillabel" class="formlabel">
                            Email
                            </label>
                            <input type="email" class="form-control custfield LoNotSensitive" name="emailf1" placeholder="Email Address" id="emailinputf1" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$">
                         </div>
--->
+
                             <div>
                                 <input type="hidden" class="querystring" name="qsf1">
                             </div>
@@ -159,8 +159,8 @@
                                 </div>
                             </div>
                         </form>
-                        <p class="text-center mb-0 p-3"><a class="numlink" href="tel:+91-8652868765"><span
-                                    class="icon-call pr-2"></span>+91-8652868765</a></p>
+                        <p class="text-center mb-0 p-3"><a class="numlink" href="tel:+91-9888727560"><span
+                                    class="icon-call pr-2"></span>+91-9888727560</a></p>
                     </div>
                 </div>
             </div>
@@ -176,32 +176,27 @@
                         Introducing
                     </h2>
                     <p class="section-subheader lightbrown-header ">
-                        Toutle Space Mumbai's Pinnacle of Professional Co-Working
+                        India's Leading Cement Dealer
                     </p>
                     <hr class="hrbrown">
                     <p class="mb-0">
-                        Welcome to Toutle Space an esteemed co working space in mumbai
+                        Welcome to Cement Dealer Shop, the best cement dealer in India.
                     </p>
-                    <p>strategically located in the thriving business districts of Goregaon and Malad.</p>
+                    <p>With 20 years of experience in the industry, we are your trusted partner for high-quality cement supplies.</p>
                     <p class="">
-                        Embark on a journey within an environment meticulously designed for success. Enjoy modern
-                        comforts
-                        such as high-speed internet, a cozy lounge area, private access to meeting and conference rooms,
-                        and
-                        an array of tea and beverages readily available for your convenience. Welcome to Toutle Space –
-                        where
-                        productivity meets comfort seamlessly.
+                        Whether you're working on government projects or large-scale construction, our cement is the foundation of your success. We offer competitive pricing, bulk discounts, and guaranteed quality with every order. Contact us today for enquiries.
                     </p>
                     <p class="">
-                        Strategically positioned in Goregaon and Malad, Toutle Space emerges as a leader in Mumbai's
-                        co-working landscape, offering cost-efficient and collaborative workspaces. Elevate your
-                        professional
-                        journey in an innovative and refined setting that prioritizes productivity and convenience.
+                        Serving builders, contractors, and developers across India, Cement Dealer Shop has built a reputation for reliability and excellence. Our extensive experience and dedication to customer satisfaction make us the top choice for all your cement needs.
+                    </p>
+                    <p class="">
+                        Call us now to place your order and experience the best in the industry. With two decades in the market, we understand what it takes to support your projects with the finest cement products.
                     </p>
                 </div>
             </div>
         </div>
     </section>
+
     <!-- end of overview secoverview -->
     <!--secrooftop -->
     <section class="" id="secrooftop">
@@ -209,21 +204,14 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10 allcol text-center">
                     <h2 class="section-header darkbrown-header ">
-                        Elevate your work experience to new heights!
+                        Elevate Your Projects to New Heights!
                     </h2>
                     <p class="section-subheader lightbrown-header ">
-
-                        Ascend to a workspace of endless comfort and amenities
+                        Your Trusted Cement Dealer for Quality and Experience
                     </p>
                     <hr class="hrbrown">
                     <p class="section-subtext pb-0">
-                        Explore our co-working haven, conveniently situated just a 5-minute walk from the metro and
-                        railway
-                        stations. Engage with a diverse community of professionals from various industries, transforming
-                        every
-                        workday into an opportunity for growth and collaboration. Welcome to a co-working space that
-                        redefines
-                        the way you work
+                        Discover why Cement Dealer Shop is recognized as the best cement dealer in India. With over 20 years of industry experience, we provide high-quality cement tailored to your specific project needs.
                     </p>
                 </div>
             </div>
@@ -232,10 +220,10 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-6 skycol text-center">
                             <div class="relativeimgbox">
-                                <div class="absolutetexttop">Actual Photo</div>
+                                <div class="absolutetexttop">Representative Image</div>
                                 <img id="skyimg1" class="img-fluid lazyload"
-                                    data-src="assets/images/gallery/toutle-space-amenties-1.jpg"
-                                    alt="Toutle Space - Co Working Space in Mumbai" title="Toutle Space Lawn">
+                                    data-src="assets/images/gallery/cement-dealer-amenties-1.jpg"
+                                    alt="Cement Dealer Shop - Best Cement Dealer in India" title="Cement Dealer Shop Amenities 1">
                                 <div class="overlay">
                                     <a class="amenicondiv skyimg" data-target="#skymodalcarousel" data-slide-to="0">
                                         <span class="icon-zoom amenicon"></span>
@@ -245,10 +233,10 @@
                         </div>
                         <div class="col-lg-6 skycol text-center">
                             <div class="relativeimgbox">
-                                <div class="absolutetexttop">Actual Photo</div>
+                                <div class="absolutetexttop">Representative Image</div>
                                 <img id="skyimg2" class="img-fluid lazyload"
-                                    data-src="assets/images/gallery/toutle-space-amenties-2.jpg"
-                                    alt="Toutle Space - Co Working Space in Mumbai" title="Toutle Space Stargazing">
+                                    data-src="assets/images/gallery/cement-dealer-amenties-2.jpg"
+                                    alt="Cement Dealer Shop - Best Cement Dealer in India" title="Cement Dealer Shop Amenities 2">
                                 <div class="overlay">
                                     <a class="amenicondiv skyimg" data-target="#skymodalcarousel" data-slide-to="1">
                                         <span class="icon-zoom amenicon"></span>
@@ -258,11 +246,10 @@
                         </div>
                         <div class="col-lg-6 skycol text-center">
                             <div class="relativeimgbox">
-                                <div class="absolutetexttop">Actual Photo</div>
+                                <div class="absolutetexttop">Representative Image</div>
                                 <img id="skyimg3" class="img-fluid lazyload"
-                                    data-src="assets/images/gallery/toutle-space-amenties-3.jpg"
-                                    alt="Toutle Space - Co Working Space in Mumbai"
-                                    title="Toutle Space Reflexology Path">
+                                    data-src="assets/images/gallery/cement-dealer-amenties-3.jpg"
+                                    alt="Cement Dealer Shop - Best Cement Dealer in India" title="Cement Dealer Shop Amenities 3">
                                 <div class="overlay">
                                     <a class="amenicondiv skyimg" data-target="#skymodalcarousel" data-slide-to="2">
                                         <span class="icon-zoom amenicon"></span>
@@ -272,10 +259,10 @@
                         </div>
                         <div class="col-lg-6 skycol text-center">
                             <div class="relativeimgbox">
-                                <div class="absolutetexttop">Actual Photo</div>
+                                <div class="absolutetexttop">Representative Image</div>
                                 <img id="skyimg4" class="img-fluid lazyload"
-                                    data-src="assets/images/gallery/toutle-space-amenties-4.jpg"
-                                    alt="Toutle Space - Co Working Space in Mumbai" title="Toutle Space Sitout">
+                                    data-src="assets/images/gallery/cement-dealer-amenties-4.jpg"
+                                    alt="Cement Dealer Shop - Best Cement Dealer in India" title="Cement Dealer Shop Amenities 4">
                                 <div class="overlay">
                                     <a class="amenicondiv skyimg" data-target="#skymodalcarousel" data-slide-to="3">
                                         <span class="icon-zoom amenicon"></span>
@@ -299,42 +286,40 @@
                                         <div id="skymodalcarousel" class="carousel slide" data-ride="carousel">
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
-                                                    <div class="absolutetexttop">Actual Photo</div>
+                                                    <div class="absolutetexttop">Representative Image</div>
                                                     <img id="sky1" class="img-fluid" src=""
-                                                        alt="Toutle Space Co Working Space in Mumbai "
-                                                        title="Toutle Space Amenities 1">
+                                                        alt="Cement Dealer Shop - Best Cement Dealer in India"
+                                                        title="Cement Dealer Shop Amenities 1">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <div class="absolutetexttop">Actual Photo</div>
+                                                    <div class="absolutetexttop">Representative Image</div>
                                                     <img id="sky2" class="img-fluid" src=""
-                                                        alt="Toutle Space Co Working Space in Mumbai "
-                                                        title="Toutle Space Amenities 2">
+                                                        alt="Cement Dealer Shop - Best Cement Dealer in India"
+                                                        title="Cement Dealer Shop Amenities 2">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <div class="absolutetexttop">Actual Photo</div>
+                                                    <div class="absolutetexttop">Representative Image</div>
                                                     <img id="sky3" class="img-fluid" src=""
-                                                        alt="Toutle Space Amenities - Co Working Space in Mumbai "
-                                                        title="Toutle Space Amenities 3">
+                                                        alt="Cement Dealer Shop - Best Cement Dealer in India"
+                                                        title="Cement Dealer Shop Amenities 3">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <div class="absolutetexttop">Actual Photo</div>
+                                                    <div class="absolutetexttop">Representative Image</div>
                                                     <img id="sky4" class="img-fluid" src=""
-                                                        alt="Toutle Space Amenities - Co Working Space in Mumbai "
-                                                        title="Toutle Space Amenities 4">
+                                                        alt="Cement Dealer Shop - Best Cement Dealer in India"
+                                                        title="Cement Dealer Shop Amenities 4">
                                                 </div>
                                             </div>
                                             <a class="carousel-control-prev" href="#skymodalcarousel" role="button"
                                                 data-slide="prev">
                                                 <div class="regulararrowbox">
-                                                    <span class="icon-left-arrow slidericon"
-                                                        aria-hidden="true"></span>
+                                                    <span class="icon-left-arrow slidericon" aria-hidden="true"></span>
                                                 </div>
                                             </a>
                                             <a class="carousel-control-next" href="#skymodalcarousel" role="button"
                                                 data-slide="next">
                                                 <div class="regulararrowbox">
-                                                    <span class="icon-right-arrow slidericon"
-                                                        aria-hidden="true"></span>
+                                                    <span class="icon-right-arrow slidericon" aria-hidden="true"></span>
                                                 </div>
                                             </a>
                                         </div>
@@ -347,21 +332,20 @@
             </div>
         </div>
     </section>
+
     <!-- end ofsecrooftop -->
     <!-- amenities secamenities -->
     <section class="" id="secamenities">
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-lg-10 allcol text-center">
-                    <h2 class="section-header darkbrown-header ">
-                        Amenities
-                    </h2>
+                    <h2 class="section-header darkbrown-header">Cement Dealership Amenities</h2>
                     <p class="section-subheader lightbrown-header">
-                        Explore a plethora of amenities that are designed to give you everything you imagined
+                        Explore a range of services designed to make your cement purchasing experience smooth and efficient.
                     </p>
                     <hr class="hrbrown">
                     <p class="section-subtext">
-                        Our endless array of amenities include
+                        Our comprehensive range of amenities includes
                     </p>
                 </div>
             </div>
@@ -371,83 +355,69 @@
                         <div class="d-flex align-self-center justify-content-center amencol">
                             <div class="card amenitiescard">
                                 <span class="icon-breakout amenities-icon"></span>
-                                <p class="amentext">Recharge in Your Lounge Escape</p>
-
-                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal"
-                                    data-target="#jwmodal">Enquire now</a>
+                                <p class="amentext">Efficient Bulk Cement Ordering System</p>
+                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#cementModal">Enquire now</a>
                             </div>
                         </div>
                         <div class="d-flex align-self-center justify-content-center amencol">
                             <div class="card amenitiescard">
                                 <span class="icon-cafeteria amenities-icon"></span>
-                                <p class="amentext">Enjoy Refreshments at Your Cafeteria</p>
-
-                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal"
-                                    data-target="#jwmodal">Enquire now</a>
+                                <p class="amentext">Convenient Online Cement Booking</p>
+                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#cementModal">Enquire now</a>
                             </div>
                         </div>
                         <div class="d-flex align-self-center justify-content-center amencol">
                             <div class="card amenitiescard">
                                 <span class="icon-coffee amenities-icon"></span>
-
-                                <p class="amentext">Access to Tea, Coffee, and Beverages</p>
-                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal"
-                                    data-target="#jwmodal">Enquire now</a>
+                                <p class="amentext">Comprehensive Cement Information and Support</p>
+                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#cementModal">Enquire now</a>
                             </div>
                         </div>
                         <div class="d-flex align-self-center justify-content-center amencol">
                             <div class="card amenitiescard">
                                 <span class="icon-conference amenities-icon"></span>
-                                <p class="amentext">Your Accessible Conference Oasis</p>
-                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal"
-                                    data-target="#jwmodal">Enquire now</a>
+                                <p class="amentext">Personalized Cement Recommendations</p>
+                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#cementModal">Enquire now</a>
                             </div>
                         </div>
                         <div class="d-flex align-self-center justify-content-center amencol">
                             <div class="card amenitiescard">
                                 <span class="icon-meeting amenities-icon"></span>
-                                <p class="amentext">Strategize in Your Accessible Meeting Room</p>
-                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal"
-                                    data-target="#jwmodal">Enquire now</a>
+                                <p class="amentext">Flexible Delivery Options for Cement Orders</p>
+                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#cementModal">Enquire now</a>
                             </div>
                         </div>
                         <div class="d-flex align-self-center justify-content-center amencol">
                             <div class="card amenitiescard">
                                 <span class="icon-pantry amenities-icon"></span>
-                                <p class="amentext">Pantry Access at Your Convenience</p>
-                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal"
-                                    data-target="#jwmodal">Enquire now</a>
+                                <p class="amentext">Accessible Bulk Order Management</p>
+                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#cementModal">Enquire now</a>
                             </div>
                         </div>
                         <div class="d-flex align-self-center justify-content-center amencol">
                             <div class="card amenitiescard">
                                 <span class="icon-printer amenities-icon"></span>
-
-                                <p class="amentext">Effortless Printing and Scanning</p>
-
-                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal"
-                                    data-target="#jwmodal">Enquire now</a>
+                                <p class="amentext">Streamlined Cement Purchase and Delivery</p>
+                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#cementModal">Enquire now</a>
                             </div>
                         </div>
                         <div class="d-flex align-self-center justify-content-center amencol">
                             <div class="card amenitiescard">
                                 <span class="icon-staff amenities-icon"></span>
-                                <p class="amentext">Professional On-site Supportive Staff</p>
-                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal"
-                                    data-target="#jwmodal">Enquire now</a>
+                                <p class="amentext">Expert Support for All Your Cement Needs</p>
+                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#cementModal">Enquire now</a>
                             </div>
                         </div>
                         <div class="d-flex align-self-center justify-content-center amencol">
                             <div class="card amenitiescard">
                                 <span class="icon-wi-fi amenities-icon"></span>
-                                <p class="amentext">Rapid High-Speed Internet Access</p>
-                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal"
-                                    data-target="#jwmodal">Enquire now</a>
+                                <p class="amentext">Rapid Response and Efficient Service</p>
+                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#cementModal">Enquire now</a>
                             </div>
                         </div>
                     </div>
                     <div class="row justify-content-center">
-                        <div class="col-lg-10 amenarrowcol ">
+                        <div class="col-lg-10 amenarrowcol">
                             <div class="row justify-content-center">
                                 <div class="col-auto align-self-center justify-content-center">
                                     <a id="amencarouselleft" class="regulararrowbox">
@@ -480,91 +450,25 @@
                                         </button>
                                         <div id="amenmodalcarousel" class="carousel slide" data-ride="carousel">
                                             <div class="carousel-inner">
+                                                <!-- Carousel Items -->
                                                 <div class="carousel-item active">
-                                                    <div class="absolutetexttop">Actual Photo</div>
-                                                    <img id="zm1" class="img-fluid" src=""
-                                                        alt="Co working space in Mumbai "
-                                                        title="Toutle Space  Amenities 1">
+                                                    <div class="absolutetexttop">Representative Image</div>
+                                                    <img id="zm1" class="img-fluid" src="" alt="Cement dealership services" title="Cement Dealership Amenities 1">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <div class="absolutetexttop">Actual Photo</div>
-                                                    <img id="zm2" class="img-fluid" src=""
-                                                        alt="Co working space in Mumbai "
-                                                        title="Toutle Space  Amenities 2">
+                                                    <div class="absolutetexttop">Representative Image</div>
+                                                    <img id="zm2" class="img-fluid" src="" alt="Cement dealership services" title="Cement Dealership Amenities 2">
                                                 </div>
-                                                <div class="carousel-item">
-                                                    <div class="absolutetexttop">Actual Photo</div>
-                                                    <img id="zm3" class="img-fluid" src=""
-                                                        alt="Co Working Space in Mumbai "
-                                                        title="Toutle Space  Amenities 3">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <div class="absolutetexttop">Actual Photo</div>
-                                                    <img id="zm4" class="img-fluid" src=""
-                                                        alt="Co working space in Mumbai "
-                                                        title="Toutle Space  Amenities 4">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <div class="absolutetexttop">Actual Photo</div>
-                                                    <img id="zm5" class="img-fluid" src=""
-                                                        alt="Co working space in Mumbai "
-                                                        title="Toutle Space  Amenities 5">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <div class="absolutetexttop">Actual Photo</div>
-                                                    <img id="zm6" class="img-fluid" src=""
-                                                        alt="Co Working Space in Mumbai "
-                                                        title="Toutle Space  Amenities 6">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <div class="absolutetexttop">Actual Photo</div>
-                                                    <img id="zm7" class="img-fluid" src=""
-                                                        alt="Co working space in Mumbai "
-                                                        title="Toutle Space  Amenities 7">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <div class="absolutetexttop">Actual Photo</div>
-                                                    <img id="zm8" class="img-fluid" src=""
-                                                        alt="Co working space in Mumbai "
-                                                        title="Toutle Space  Amenities 8">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <div class="absolutetexttop">Actual Photo</div>
-                                                    <img id="zm9" class="img-fluid" src=""
-                                                        alt="Co working space in Mumbai "
-                                                        title="Toutle Space  Amenities 9">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <div class="absolutetexttop">Actual Photo</div>
-                                                    <img id="zm10" class="img-fluid" src=""
-                                                        alt="Co working space in Mumbai "
-                                                        title="Toutle Space  Amenities 10">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <div class="absolutetexttop">Actual Photo</div>
-                                                    <img id="zm11" class="img-fluid" src=""
-                                                        alt="Co working space in Mumbai"
-                                                        title="Toutle Space  Amenities 11">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <div class="absolutetexttop">Actual Photo</div>
-                                                    <img id="zm12" class="img-fluid" src=""
-                                                        alt="Co working space in Mumbai"
-                                                        title="Toutle Space  Amenities 12">
-                                                </div>
+                                                <!-- Add more carousel items as needed -->
                                             </div>
-                                            <a class="carousel-control-prev" href="#amenmodalcarousel" role="button"
-                                                data-slide="prev">
+                                            <a class="carousel-control-prev" href="#amenmodalcarousel" role="button" data-slide="prev">
                                                 <div class="regulararrowbox">
-                                                    <span class="icon-left-arrow slidericon"
-                                                        aria-hidden="true"></span>
+                                                    <span class="icon-left-arrow slidericon" aria-hidden="true"></span>
                                                 </div>
                                             </a>
-                                            <a class="carousel-control-next" href="#amenmodalcarousel" role="button"
-                                                data-slide="next">
+                                            <a class="carousel-control-next" href="#amenmodalcarousel" role="button" data-slide="next">
                                                 <div class="regulararrowbox">
-                                                    <span class="icon-right-arrow slidericon"
-                                                        aria-hidden="true"></span>
+                                                    <span class="icon-right-arrow slidericon" aria-hidden="true"></span>
                                                 </div>
                                             </a>
                                         </div>
@@ -577,6 +481,7 @@
             </div>
         </div>
     </section>
+
     <!-- end of amenities secamenities -->
     <!-- config secconfig -->
     <section class="allsection" id="secconfig">
@@ -586,41 +491,36 @@
                     <div class="row">
                         <div class="col-lg-6 allcol leftcent d-flex align-self-center locadvouter">
                             <div class="">
-                                <h2 class="section-header darkbrown-header ">
-                                    Find Your Perfect Coworking Fit Today!
+                                <h2 class="section-header darkbrown-header">
+                                    Find the Right Cement Solutions for Your Project
                                 </h2>
-                                <div class="co-working-perfect-fit-div">
-                                    <p class="section-subheader lightbrown-header co-working-perfect-fit-div-title">
-                                        Conference Room
+                                <div class="cement-solution-div">
+                                    <p class="section-subheader lightbrown-header cement-solution-div-title">
+                                        Bulk Cement Orders
                                     </p>
-                                    <hr class="hrbrown hrleft co-working-perfect-fit-div-description">
-                                    <p>Unlock success in our premium conference rooms tailored for your business needs.
-                                    </p>
-                                    </p>
+                                    <hr class="hrbrown hrleft cement-solution-div-description">
+                                    <p>Streamline your construction projects with our bulk cement ordering services, designed for efficiency and convenience.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6 allcol text-center align-self-center">
-                            <div class="row ">
+                            <div class="row">
                                 <div class="col-12">
-                                    <div class="configcard ">
-                                        <p class="config-title co-working-perfect-fit-div-heading">
-                                            Confernece Room
+                                    <div class="configcard">
+                                        <p class="config-title cement-solution-div-heading">
+                                            Bulk Cement Ordering
                                         </p>
                                         <hr class="hrconfig">
                                         <p class="section-subtext carpet-area-text mb-3 text-left">
-
                                         <div class="priceSpace">
-
                                             <p class="section-subtext price-text pricing-image-div">
-                                                <img src="assets/images/conference room.jpg" alt=""
-                                                    class="img-fluid pricing-image co-working-perfect-fit-div-image">
+                                                <img src="assets/images/bulk-cement.jpg" alt="Bulk Cement Ordering" class="img-fluid pricing-image cement-solution-div-image">
                                             </p>
                                         </div>
-                                        <a class="btn btn-custom configbtn3 mt-3" href="#pricing-section"
-                                            data-toggle="modal" data-target="#jwmodal">
-                                            Explore Pricing Options
+                                        <a class="btn btn-custom configbtn3 mt-3" href="#pricing-section" data-toggle="modal" data-target="#cementModal">
+                                            Explore Bulk Pricing Options
                                         </a>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -632,42 +532,35 @@
                 <div class="col-lg-10">
                     <div class="row">
                         <div class="col-lg-6 allcol text-center align-self-center">
-                            <div class="row ">
+                            <div class="row">
                                 <div class="col-12">
-                                    <div class="configcard ">
-                                        <p class="config-title co-working-perfect-fit-div-heading">
-                                            Private Cabin
+                                    <div class="configcard">
+                                        <p class="config-title cement-solution-div-heading">
+                                            Customized Cement Solutions
                                         </p>
                                         <hr class="hrconfig">
                                         <p class="section-subtext carpet-area-text mb-3 text-left">
-
                                         <div class="priceSpace">
-
                                             <p class="section-subtext price-text pricing-image-div">
-                                                <img src="assets/images/cabin.png" alt=""
-                                                    class="img-fluid pricing-image co-working-perfect-fit-div-image">
+                                                <img src="assets/images/custom-cement.png" alt="Customized Cement Solutions" class="img-fluid pricing-image cement-solution-div-image">
                                             </p>
                                         </div>
-                                        <a class="btn btn-custom configbtn3 mt-3" href="#pricing-section"
-                                            data-toggle="modal" data-target="#jwmodal">
-                                            Explore Pricing Options
+                                        <a class="btn btn-custom configbtn3 mt-3" href="#pricing-section" data-toggle="modal" data-target="#cementModal">
+                                            Explore Customized Solutions
                                         </a>
+                                        </p>
                                     </div>
                                 </div>
-
-
                             </div>
                         </div>
                         <div class="col-lg-6 allcol leftcent d-flex align-self-center locadvouter">
                             <div class="">
-
-                                <div class="co-working-perfect-fit-div">
-                                    <p class="section-subheader lightbrown-header co-working-perfect-fit-div-title">
-                                        Private Cabin
+                                <div class="cement-solution-div">
+                                    <p class="section-subheader lightbrown-header cement-solution-div-title">
+                                        Customized Cement Solutions
                                     </p>
-                                    <hr class="hrbrown hrleft co-working-perfect-fit-div-description">
-                                    <p>Unlock success in our tailored Private Cabins for your business.</p>
-                                    </p>
+                                    <hr class="hrbrown hrleft cement-solution-div-description">
+                                    <p>Discover our tailored cement solutions that cater specifically to your project requirements, ensuring optimal performance and durability.</p>
                                 </div>
                             </div>
                         </div>
@@ -677,174 +570,240 @@
         </div>
     </section>
 
-    <section class="allsection" id="secLocation">
+
+    <section class="allsection" id="secCementTypes">
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-lg-10 allcol text-center">
-                    <h2 class="section-header darkbrown-header ">
-                        Address
+                    <h2 class="section-header darkbrown-header">
+                        High Performance Cement Solutions for Every Project
                     </h2>
                     <hr class="hrbrown">
-                    <p class="section-subheader lightbrown-header ">
-                        Toutle Space
+                    <p class="section-subheader lightbrown-header">
+                        Discover Our Range of Cement Products
                     </p>
                     <p class="section-subtext">
-
+                        Whether you're working on a large construction project or a smaller renovation, our diverse range of cement products is designed to meet all your needs with exceptional performance and reliability.
                     </p>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-10 allcol p-0 map-div">
-                    <div class="d-lg-block d-none">
-                        <div class="relativeimgbox">
-                            <div class="absolutetexttop">Representative Image</div>
-                            <img src="assets/images/map1.JPG" alt="" width="100%" height="450"
-                                class="lazyload">
+            <div class="row justify-content-center mt-5">
+                <div class="col-lg-10">
+                    <div class="row">
+                        <div class="col-lg-4 text-center">
+                            <div class="cement-card">
+                                <p class="cement-title">
+                                    OPC 53 Grade Cement
+                                </p>
+                                <hr class="hrconfig">
+                                <p class="section-subtext">
+                                    High-strength cement with a minimum 28-day compressive strength of 53 MPa, perfect for demanding construction projects.
+                                </p>
+                                <a class="btn btn-custom mt-3" href="#contact-form" data-toggle="modal" data-target="#contactModal">
+                                    Request a Quote
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 text-center">
+                            <div class="cement-card">
+                                <p class="cement-title">
+                                    OPC 43 Grade Cement
+                                </p>
+                                <hr class="hrconfig">
+                                <p class="section-subtext">
+                                    Versatile and cost-effective cement suitable for a wide range of construction applications, providing a balance of strength and affordability.
+                                </p>
+                                <a class="btn btn-custom mt-3" href="#contact-form" data-toggle="modal" data-target="#contactModal">
+                                    Request a Quote
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 text-center">
+                            <div class="cement-card">
+                                <p class="cement-title">
+                                    PPC Cement
+                                </p>
+                                <hr class="hrconfig">
+                                <p class="section-subtext">
+                                    A blend of clinker, pozzolanic material, and gypsum, offering versatile applications and performance similar to 33-grade cement.
+                                </p>
+                                <a class="btn btn-custom mt-3" href="#contact-form" data-toggle="modal" data-target="#contactModal">
+                                    Request a Quote
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 text-center mt-4">
+                            <div class="cement-card">
+                                <p class="cement-title">
+                                    PSC Cement
+                                </p>
+                                <hr class="hrconfig">
+                                <p class="section-subtext">
+                                    Eco-friendly Portland Slag Cement (PSC) that provides durability and long-lasting strength for various construction needs.
+                                </p>
+                                <a class="btn btn-custom mt-3" href="#contact-form" data-toggle="modal" data-target="#contactModal">
+                                    Request a Quote
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 text-center mt-4">
+                            <div class="cement-card">
+                                <p class="cement-title">
+                                    OPC 33 Grade Cement
+                                </p>
+                                <hr class="hrconfig">
+                                <p class="section-subtext">
+                                    Ideal for non-structural applications, offering good strength for general construction and repair work.
+                                </p>
+                                <a class="btn btn-custom mt-3" href="#contact-form" data-toggle="modal" data-target="#contactModal">
+                                    Request a Quote
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 text-center mt-4">
+                            <div class="cement-card">
+                                <p class="cement-title">
+                                    Ready Mix Concrete
+                                </p>
+                                <hr class="hrconfig">
+                                <p class="section-subtext">
+                                    Conveniently produced and delivered to your site, Ready Mix Concrete ensures consistent quality and saves time on construction projects.
+                                </p>
+                                <a class="btn btn-custom mt-3" href="#contact-form" data-toggle="modal" data-target="#contactModal">
+                                    Request a Quote
+                                </a>
+                            </div>
                         </div>
                     </div>
-                    <div class="d-lg-none d-block">
-                        <div class="relativeimgbox">
-                            <div class="absolutetexttop">Representative Image</div>
-                            <img src="assets/images/map2.jpg" alt="" width="100%" height="450"
-                                class="lazyload">
-                        </div>
-                    </div>
-                    <a class="btn btn-custom map-div-button" href="" data-toggle="modal"
-                        data-target="#jwmodal">
-                        Get Directions
+                </div>
+            </div>
+            <div class="row justify-content-center mt-5">
+                <div class="col-lg-10 text-center">
+                    <h3 class="section-subheader lightbrown-header">
+                        Why Choose Us?
+                    </h3>
+                    <ul class="list-unstyled">
+                        <li>Get a Solution for All Industries</li>
+                        <li>Experience You Can Trust</li>
+                        <li>Quality Craftsmanship</li>
+                        <li>100% Satisfaction Guarantee</li>
+                        <li>Accurate Testing Processes</li>
+                    </ul>
+                    <a class="btn btn-custom mt-3" href="#contact-form" data-toggle="modal" data-target="#contactModal">
+                        Request a Quote
                     </a>
-                </div>
-            </div>
-            <div id="jwmodal" class="modal fade" tabindex="-1" role="dialog">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content no-border-radius frmbdr">
-                        <div class="modal-body frmbox">
-                            <div class="">
-                                <button class="close modal-close" data-dismiss="modal" aria-hidden="true">
-                                    <span class="icon-close"></span>
-                                </button>
-                            </div>
-                            <form id="formf2" action="contactf2.php" method="POST">
-                                <h2 class="form-header darkbrown-header text-center">
-                                    Enquire Now
-                                </h2>
-                                <hr class="hrbrown">
-                                <div class="form-group">
-                                    <label for="namelabel" class="formlabel">
-                                        Name*
-                                    </label>
-                                    <input type="text" class="form-control custfield LoNotSensitive"
-                                        name="namef2" placeholder="Name" id="nameinputf2" required>
-                                </div>
-
-                                <!-- <div class="form-group">
-                           <label for="emaillabel" class="formlabel">
-                              Email
-                           </label>
-                           <input type="email" class="form-control custfield LoNotSensitive" name="emailf2"
-                              placeholder="Email Address" id="emailinputf2"
-                              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$">
-                        </div> -->
-
-                                <div class="form-group">
-                                    <label for="phonelabel" class="formlabel">
-                                        Phone*
-                                    </label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text custigp">
-                                                +91
-                                            </span>
-                                        </div>
-                                        <input type="tel" placeholder="Mobile Number"
-                                            class="form-control custfield custfieldphone LoNotSensitive"
-                                            name="phonef2" id="phoneinputf2" pattern="[6-9]{1}[0-9]{9}" required>
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <input type="hidden" class="querystring" name="qsf2">
-                                </div>
-                                <div class="form-group frmsubmit">
-                                    <div class="text-center">
-                                        <button type="submit" id="submitf2" class="btn btn-custom">
-                                            Submit
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                            <p class="text-center mb-0 p-3"><a class="numlink" href="tel:+91-8652868765"><span
-                                        class="icon-call pr-2"></span>+91-8652868765</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="jwautomodal" class="modal fade" tabindex="-1" role="dialog">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content no-border-radius frmbdr">
-                        <div class="modal-body frmbox">
-                            <div class="">
-                                <button class="close modal-close" data-dismiss="modal" aria-hidden="true">
-                                    <span class="icon-close"></span>
-                                </button>
-                            </div>
-                            <form id="formf3" action="contactf3.php" method="POST">
-                                <h2 class="form-header darkbrown-header text-center">
-                                    Enquire Now
-                                </h2>
-                                <hr class="hrbrown">
-                                <div class="form-group">
-                                    <label for="namelabel" class="formlabel">
-                                        Name*
-                                    </label>
-                                    <input type="text" class="form-control custfield LoNotSensitive"
-                                        name="namef3" placeholder="Name" id="nameinputf3" required>
-                                </div>
-
-                                <!-- <div class="form-group">
-                           <label for="emaillabel" class="formlabel">
-                              Email
-                           </label>
-                           <input type="email" class="form-control custfield LoNotSensitives" name="emailf3"
-                              placeholder="Email Address" id="emailinputf3"
-                              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$">
-                        </div> -->
-
-                                <div class="form-group">
-                                    <label for="phonelabel" class="formlabel">
-                                        Phone*
-                                    </label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text custigp">
-                                                +91
-                                            </span>
-                                        </div>
-                                        <input type="tel" placeholder="Mobile Number"
-                                            class="form-control custfield custfieldphone LoNotSensitive"
-                                            name="phonef3" id="phoneinputf3" pattern="[6-9]{1}[0-9]{9}" required>
-                                    </div>
-                                </div>
-                                <div>
-                                    <input type="hidden" class="querystring" name="qsf3">
-                                </div>
-                                <div class="form-group frmsubmit">
-                                    <div class="text-center">
-                                        <button type="submit" id="submitf3" class="btn btn-custom" href=""
-                                            data-toggle="modal" data-target="#jwmodal">
-                                            Submit
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                            <p class="text-center mb-0 p-2"><a class="numlink" href="tel:+91-8652868765"><span
-                                        class="icon-call pr-2"></span>+91-8652868765</a></p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <div id="contactModal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content no-border-radius frmbdr">
+                <div class="modal-body frmbox">
+                    <div class="">
+                        <button class="close modal-close" data-dismiss="modal" aria-hidden="true">
+                            <span class="icon-close"></span>
+                        </button>
+                    </div>
+                    <form id="contactForm" action="contact.php" method="POST">
+                        <h2 class="form-header darkbrown-header text-center">
+                            Enquire Now
+                        </h2>
+                        <hr class="hrbrown">
+                        <div class="form-group">
+                            <label for="name" class="formlabel">
+                                Name*
+                            </label>
+                            <input type="text" class="form-control custfield" name="name" placeholder="Name" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="formlabel">
+                                Email
+                            </label>
+                            <input type="email" class="form-control custfield" name="email" placeholder="Email Address" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="formlabel">
+                                Phone*
+                            </label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text custigp">
+                                        +91
+                                    </span>
+                                </div>
+                                <input type="tel" placeholder="Mobile Number" class="form-control custfield" name="phone" id="phone" pattern="[6-9]{1}[0-9]{9}" required>
+                            </div>
+                        </div>
+                        <div class="form-group frmsubmit">
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-custom">
+                                    Submit
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <p class="text-center mb-0 p-3"><a class="numlink" href="tel:+91-9888727560"><span class="icon-call pr-2"></span>+91-9888727560</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="contactModal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content no-border-radius frmbdr">
+                <div class="modal-body frmbox">
+                    <div class="">
+                        <button class="close modal-close" data-dismiss="modal" aria-hidden="true">
+                            <span class="icon-close"></span>
+                        </button>
+                    </div>
+                    <form id="contactForm" action="contact.php" method="POST">
+                        <h2 class="form-header darkbrown-header text-center">
+                            Enquire Now
+                        </h2>
+                        <hr class="hrbrown">
+                        <div class="form-group">
+                            <label for="name" class="formlabel">
+                                Name*
+                            </label>
+                            <input type="text" class="form-control custfield" name="name" placeholder="Name" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="formlabel">
+                                Email
+                            </label>
+                            <input type="email" class="form-control custfield" name="email" placeholder="Email Address" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="formlabel">
+                                Phone*
+                            </label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text custigp">
+                                        +91
+                                    </span>
+                                </div>
+                                <input type="tel" placeholder="Mobile Number" class="form-control custfield" name="phone" id="phone" pattern="[6-9]{1}[0-9]{9}" required>
+                            </div>
+                        </div>
+                        <div class="form-group frmsubmit">
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-custom">
+                                    Submit
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <p class="text-center mb-0 p-3"><a class="numlink" href="tel:+91-9888727560"><span class="icon-call pr-2"></span>+91-9888727560</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- end of contact seccontact -->
     <!-- about secabout -->
 
@@ -855,23 +814,21 @@
             <div class="row align-self-center justify-content-center footer-text">
                 <div class="col-lg-3 align-self-center halfcol">
                     <div class="row justify-content-center">
-                        <img class="img-fluid" src="assets/images/logo.png" alt=" Toutle Space "
-                            title=" Toutle Space  White Logo" width="" height="">
+                        <img class="img-fluid" src="assets/images/logo.png" alt="Cement Dealer Shop Logo"
+                            title="Cement Dealer Shop Logo" width="" height="">
                     </div>
+                </div>
 
-                </div>
-                <div class="col-lg-6 col-10 align-self-center halfcol">
-                </div>
                 <div class="col-lg-3 halfcol align-self-center text-center">
                     <p>
-                        <a href="https://www.facebook.com/toutlespace" class="soc-item" target="_blank">
-                            <img class="img-fluid" src="assets/images/facebook.png" alt="Toutle Space  Facebook Icon"
-                                title="Toutle Space  Facebook Link">
+                        <a href="https://www.facebook.com/cementdealershop" class="soc-item" target="_blank">
+                            <img class="img-fluid" src="assets/images/facebook.png" alt="Cement Dealer Shop Facebook"
+                                title="Cement Dealer Shop Facebook">
                         </a>
                         &nbsp;
-                        <a href="https://www.instagram.com/toutlespace/" class="soc-item" target="_blank">
-                            <img class="img-fluid" src="assets/images/instagram.png"
-                                alt="Toutle Space  Facebook Icon" title="Toutle Space  Instagram Link">
+                        <a href="https://www.instagram.com/cementdealershop/" class="soc-item" target="_blank">
+                            <img class="img-fluid" src="assets/images/instagram.png" alt="Cement Dealer Shop Instagram"
+                                title="Cement Dealer Shop Instagram">
                         </a>
                     </p>
                     <p class="mb-0">
@@ -881,19 +838,40 @@
                         </a>
                     </p>
                     <p class="mb-0">
-                        Copyright &copy; Toutle Space
+                        Copyright &copy; Cement Dealer Shop
                     </p>
+                </div>
 
+                <div class="col-lg-6 col-10 align-self-center halfcol text-center">
+                    <p class="footer-address">
+                        <strong>Our Location:</strong><br>
+                        Ahura Centre, Mahakali Caves Road,<br>
+                        Andheri (East), Mumbai - 400093
+                    </p>
+                    <p class="footer-hours">
+                        <strong>Working Hours:</strong><br>
+                        Monday: 9 AM - 8 PM<br>
+                        Tuesday: 9 AM - 8 PM<br>
+                        Wednesday: 9 AM - 8 PM<br>
+                        Thursday: 9 AM - 8 PM<br>
+                        Friday: 9 AM - 8 PM<br>
+                        Saturday: 9 AM - 8 PM<br>
+                        Sunday: 9 AM - 8 PM
+                    </p>
+                    <p class="footer-contact text-white">
+                        <strong>Phone:</strong> <a href="tel:+91-9888727560">+91-9888727560</a><br>
+                        <strong>Email:</strong> <a href="mailto:admin@cementdealer.shop">admin@cementdealer.shop</a>
+                    </p>
                 </div>
                 <!-- sticky mob starts here-->
                 <div class="fixed-bottom d-block d-lg-none">
                     <div id="stickymob">
                         <div class="row stickybtn">
-                            <a class="col stickycall text-center stickycol stickybdr" href="tel:+91-8652868765">
+                            <a class="col stickycall text-center stickycol stickybdr" href="tel:+91-9888727560">
                                 CALL NOW
                             </a>
                             <a class="col stickyenq text-center stickycol" href="" data-toggle="modal"
-                                data-target="#jwmodal">
+                                data-target="#cementModal">
                                 ENQUIRE NOW
                             </a>
                         </div>
@@ -906,6 +884,8 @@
             </div>
         </div>
     </footer>
+
+
     <!-- end of footer -->
 
     <!--  sticky oc recived-->

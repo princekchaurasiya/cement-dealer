@@ -31,7 +31,6 @@
     <meta name="author" content="Cement Dealership - Quality Cement Products">
     <title>Form Submission Failed - Cement Dealership</title>
 
-
     <!-- css links -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/icons/style.css" rel="stylesheet">
@@ -46,17 +45,16 @@
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <!--form submit failed navbar-->
+    <!-- form submit failed navbar -->
     <nav class="navbar navz navbar-expand-lg fixed-top" id="scrollspynav">
         <a class="navbar-brand" href="./">
-            <img class="logo1" src="assets/images/toutle-space-2.png" alt="co working space in Malad West"
-                title="co working space in Goregaon West">
+            <img class="logo1" src="assets/images/logo.png" alt="Cement Dealer Shop Logo"
+                title="Cement Dealer Shop Logo">
         </a>
-
     </nav>
     <!-- end of form submit failed navbar -->
 
-    <!--thank you section tyfssec1-->
+    <!-- form submit failed section -->
     <section class="" id="tyfssec1">
         <div class="container-fluid">
             <div class="row">
@@ -65,18 +63,18 @@
                         <span class="icon-cross fsicon"></span>
                     </p>
                     <h2 class="section-subtext black-header pb-5">
-                        Form Submit Failed.
+                        Form Submission Failed.
                     </h2>
 
                     <p class="pb-5">
-                        Please go to home page and try again.
+                        Please go to the home page and try again.
                         <br>
                         You can get in touch with us at
                     </p>
 
                     <h3 class="pb-5">
-                        <a class="otherpagenumlink" href="tel:+91-9136698816"><span
-                                class="icon-col"></span>+91-9136698816</a>
+                        <a class="otherpagenumlink" href="tel:+91-9888727560"><span
+                                class="icon-col"></span>+91-9888727560</a>
                     </h3>
 
                     <a href="./" class="btn btn-custom">GO BACK TO HOME PAGE</a>
@@ -85,7 +83,7 @@
             </div>
         </div>
     </section>
-    <!--end of thank you section tyfssec1-->
+    <!-- end of form submit failed section -->
 
     <!-- footer -->
     <footer class="bg-footer">
@@ -93,23 +91,22 @@
             <div class="row align-self-center justify-content-center footer-text">
                 <div class="col-lg-3 align-self-center halfcol">
                     <div class="row justify-content-center">
-                        <img class="img-fluid" src="assets/images/logo.png" alt="   Toutle Space "
-                            title="   Toutle Space  White Logo" width="" height="">
+                        <img class="img-fluid" src="assets/images/logo.png" alt="Cement Dealer Shop Logo"
+                            title="Cement Dealer Shop Logo" width="" height="">
                     </div>
-
                 </div>
                 <div class="col-lg-6 col-10 align-self-center halfcol">
                 </div>
                 <div class="col-lg-3 halfcol align-self-center text-center">
                     <p>
-                        <a href="https://www.facebook.com/toutlespace" class="soc-item" target="_blank">
-                            <img class="img-fluid" src="assets/images/facebook.png" alt="Toutle Space  Facebook Icon"
-                                title="Toutle Space  Facebook Link">
+                        <a href="https://www.facebook.com/cementdealership" class="soc-item" target="_blank">
+                            <img class="img-fluid" src="assets/images/facebook.png" alt="Cement Dealer Shop Facebook Icon"
+                                title="Cement Dealer Shop Facebook Link">
                         </a>
                         &nbsp;
-                        <a href="https://www.instagram.com/toutlespace/" class="soc-item" target="_blank">
-                            <img class="img-fluid" src="assets/images/instagram.png" alt="Toutle Space  Facebook Icon"
-                                title="Toutle Space  Instagram Link">
+                        <a href="https://www.instagram.com/cementdealership/" class="soc-item" target="_blank">
+                            <img class="img-fluid" src="assets/images/instagram.png" alt="Cement Dealer Shop Instagram Icon"
+                                title="Cement Dealer Shop Instagram Link">
                         </a>
                     </p>
                     <p class="mb-0">
@@ -119,19 +116,18 @@
                         </a>
                     </p>
                     <p class="mb-0">
-                        Copyright &copy; Toutle Space
+                        Copyright &copy; Cement Dealer Shop
                     </p>
-
                 </div>
-                <!-- sticky mob starts here-->
+                <!-- sticky mob starts here -->
                 <div class="fixed-bottom d-block d-lg-none">
                     <div id="stickymob">
                         <div class="row stickybtn">
-                            <a class="col stickycall text-center stickycol stickybdr" href="tel:+91-9136698816">
+                            <a class="col stickycall text-center stickycol stickybdr" href="tel:+91-9888727560">
                                 CALL NOW
                             </a>
                             <a class="col stickyenq text-center stickycol" href="" data-toggle="modal"
-                                data-target="#jwmodal">
+                                data-target="#cementModal">
                                 ENQUIRE NOW
                             </a>
                         </div>

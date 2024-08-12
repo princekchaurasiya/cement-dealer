@@ -114,7 +114,7 @@ $(window).scroll(function () {
 /* modal killer */
 if (sessionStorage.getItem('popOnce') !== 'true') {
   function showModal() {
-    if (!$("#jwmodal,#jwautomodal,#amenmodal,#skymodal").is(":visible")) {
+    if (!$("#cementModal,#jwautomodal,#amenmodal,#skymodal").is(":visible")) {
       $("#jwautomodal").modal('show');
       sessionStorage.setItem('popOnce', 'true');
     }
