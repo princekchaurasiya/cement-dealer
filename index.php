@@ -29,7 +29,7 @@
     <title>Cement Dealership | Trusted Supplier for Premium Cement Products</title>
     <!-- css links -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/icons/style.min.css" rel="stylesheet">
+    <link href="assets/icons/style.css" rel="stylesheet">
     <link href="assets/css/slick.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <!-- end of css links -->
@@ -354,65 +354,65 @@
                     <div class="row amencarousel">
                         <div class="d-flex align-self-center justify-content-center amencol">
                             <div class="card amenitiescard">
-                                <span class="icon-breakout amenities-icon"></span>
+                                <span class="icon-cement amenities-icon"></span>
                                 <p class="amentext">Efficient Bulk Cement Ordering System</p>
-                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#contact-form">Enquire now</a>
+                                <a class="btn btn-custom configbtn3 mt-3" href="#contact-form" data-toggle="modal" data-target="#contactModal">Enquire now</a>
                             </div>
                         </div>
                         <div class="d-flex align-self-center justify-content-center amencol">
                             <div class="card amenitiescard">
-                                <span class="icon-cafeteria amenities-icon"></span>
+                                <span class="icon-booking amenities-icon"></span>
                                 <p class="amentext">Convenient Online Cement Booking</p>
-                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#contact-form">Enquire now</a>
+                                <a class="btn btn-custom configbtn3 mt-3" href="#contact-form" data-toggle="modal" data-target="#contactModal">Enquire now</a>
                             </div>
                         </div>
                         <div class="d-flex align-self-center justify-content-center amencol">
                             <div class="card amenitiescard">
-                                <span class="icon-coffee amenities-icon"></span>
+                                <span class="icon-customer-service amenities-icon"></span>
                                 <p class="amentext">Comprehensive Cement Information and Support</p>
-                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#contact-form">Enquire now</a>
-                            </div>
-                        </div>
-                        <div class="d-flex align-self-center justify-content-center amencol">
-                            <div class="card amenitiescard">
-                                <span class="icon-conference amenities-icon"></span>
-                                <p class="amentext">Personalized Cement Recommendations</p>
-                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#contact-form">Enquire now</a>
+                                <a class="btn btn-custom configbtn3 mt-3" href="#contact-form" data-toggle="modal" data-target="#contactModal">Enquire now</a>
                             </div>
                         </div>
                         <div class="d-flex align-self-center justify-content-center amencol">
                             <div class="card amenitiescard">
                                 <span class="icon-meeting amenities-icon"></span>
+                                <p class="amentext">Personalized Cement Recommendations</p>
+                                <a class="btn btn-custom configbtn3 mt-3" href="#contact-form" data-toggle="modal" data-target="#contactModal">Enquire now</a>
+                            </div>
+                        </div>
+                        <div class="d-flex align-self-center justify-content-center amencol">
+                            <div class="card amenitiescard">
+                                <span class="icon-fast-delivery amenities-icon"></span>
                                 <p class="amentext">Flexible Delivery Options for Cement Orders</p>
-                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#contact-form">Enquire now</a>
+                                <a class="btn btn-custom configbtn3 mt-3" href="#contact-form" data-toggle="modal" data-target="#contactModal">Enquire now</a>
                             </div>
                         </div>
                         <div class="d-flex align-self-center justify-content-center amencol">
                             <div class="card amenitiescard">
-                                <span class="icon-pantry amenities-icon"></span>
+                                <span class="icon-stack amenities-icon"></span>
                                 <p class="amentext">Accessible Bulk Order Management</p>
-                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#contact-form">Enquire now</a>
+                                <a class="btn btn-custom configbtn3 mt-3" href="#contact-form" data-toggle="modal" data-target="#contactModal">Enquire now</a>
                             </div>
                         </div>
                         <div class="d-flex align-self-center justify-content-center amencol">
                             <div class="card amenitiescard">
-                                <span class="icon-printer amenities-icon"></span>
+                                <span class="icon-delivery-car amenities-icon"></span>
                                 <p class="amentext">Streamlined Cement Purchase and Delivery</p>
-                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#contact-form">Enquire now</a>
+                                <a class="btn btn-custom configbtn3 mt-3" href="#contact-form" data-toggle="modal" data-target="#contactModal">Enquire now</a>
                             </div>
                         </div>
                         <div class="d-flex align-self-center justify-content-center amencol">
                             <div class="card amenitiescard">
-                                <span class="icon-staff amenities-icon"></span>
+                                <span class="icon-customer-success amenities-icon"></span>
                                 <p class="amentext">Expert Support for All Your Cement Needs</p>
-                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#contact-form">Enquire now</a>
+                                <a class="btn btn-custom configbtn3 mt-3" href="#contact-form" data-toggle="modal" data-target="#contactModal">Enquire now</a>
                             </div>
                         </div>
                         <div class="d-flex align-self-center justify-content-center amencol">
                             <div class="card amenitiescard">
-                                <span class="icon-wi-fi amenities-icon"></span>
+                                <span class="icon-efficiency amenities-icon"></span>
                                 <p class="amentext">Rapid Response and Efficient Service</p>
-                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#contact-form">Enquire now</a>
+                                <a class="btn btn-custom configbtn3 mt-3" href="#contact-form" data-toggle="modal" data-target="#contactModal">Enquire now</a>
                             </div>
                         </div>
                     </div>
@@ -514,10 +514,10 @@
                                         <p class="section-subtext carpet-area-text mb-3 text-left">
                                         <div class="priceSpace">
                                             <p class="section-subtext price-text pricing-image-div">
-                                                <img src="assets/images/bulk-cement.jpg" alt="Bulk Cement Ordering" class="img-fluid pricing-image cement-solution-div-image">
+                                                <img src="assets/images/cement-dealership-best-cement-delaer-in-india-3.jpg" alt="Bulk Cement Ordering" class="img-fluid pricing-image cement-solution-div-image">
                                             </p>
                                         </div>
-                                        <a class="btn btn-custom configbtn3 mt-3" href="#pricing-section" data-toggle="modal" data-target="#contact-form">
+                                        <a class="btn btn-custom configbtn3 mt-3" href="#contact-form" data-toggle="modal" data-target="#contactModal">
                                             Explore Bulk Pricing Options
                                         </a>
                                         </p>
@@ -542,10 +542,10 @@
                                         <p class="section-subtext carpet-area-text mb-3 text-left">
                                         <div class="priceSpace">
                                             <p class="section-subtext price-text pricing-image-div">
-                                                <img src="assets/images/custom-cement.png" alt="Customized Cement Solutions" class="img-fluid pricing-image cement-solution-div-image">
+                                                <img src="assets/images/cement-expert-solution.jpg" alt="Customized Cement Solutions" class="img-fluid pricing-image cement-solution-div-image">
                                             </p>
                                         </div>
-                                        <a class="btn btn-custom configbtn3 mt-3" href="#pricing-section" data-toggle="modal" data-target="#contact-form">
+                                        <a class="btn btn-custom configbtn3 mt-3" href="#contact-form" data-toggle="modal" data-target="#contactModal">
                                             Explore Customized Solutions
                                         </a>
                                         </p>
@@ -632,6 +632,7 @@
                                 </a>
                             </div>
                         </div>
+
                         <div class="col-lg-4 text-center mt-4">
                             <div class="cement-card">
                                 <p class="cement-title">
@@ -655,6 +656,7 @@
                                 <p class="section-subtext">
                                     Ideal for non-structural applications, offering good strength for general construction and repair work.
                                 </p>
+                                <br>
                                 <a class="btn btn-custom mt-3" href="#contact-form" data-toggle="modal" data-target="#contactModal">
                                     Request a Quote
                                 </a>
@@ -870,8 +872,8 @@
                             <a class="col stickycall text-center stickycol stickybdr" href="tel:+91-9888727560">
                                 CALL NOW
                             </a>
-                            <a class="col stickyenq text-center stickycol" href="" data-toggle="modal"
-                                data-target="#contact-form">
+                            <a class="col stickyenq text-center stickycol" href="#contact-form" data-toggle="modal"
+                            data-target="#contactModal">
                                 ENQUIRE NOW
                             </a>
                         </div>

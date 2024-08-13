@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?h9t6bi');
-  src:  url('fonts/icomoon.eot?h9t6bi#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?h9t6bi') format('truetype'),
-    url('fonts/icomoon.woff?h9t6bi') format('woff'),
-    url('fonts/icomoon.svg?h9t6bi#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?hnm3pd');
+  src:  url('fonts/icomoon.eot?hnm3pd#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?hnm3pd') format('truetype'),
+    url('fonts/icomoon.woff?hnm3pd') format('woff'),
+    url('fonts/icomoon.svg?hnm3pd#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,51 +25,78 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-printer:before {
+.icon-booking:before {
   content: "\e900";
 }
-.icon-menu:before {
+.icon-breakout:before {
   content: "\e901";
 }
-.icon-close:before {
+.icon-cafeteria:before {
   content: "\e902";
 }
-.icon-conference:before {
+.icon-call:before {
   content: "\e903";
 }
-.icon-left-arrow:before {
+.icon-cement:before {
   content: "\e904";
 }
-.icon-meeting:before {
+.icon-close:before {
   content: "\e905";
 }
-.icon-pantry:before {
+.icon-coffee:before {
   content: "\e906";
 }
-.icon-right-arrow:before {
+.icon-conference:before {
   content: "\e907";
 }
-.icon-staff:before {
+.icon-customer-service:before {
   content: "\e908";
 }
-.icon-tick:before {
+.icon-customer-success:before {
   content: "\e909";
 }
-.icon-wi-fi:before {
+.icon-delivery-car:before {
   content: "\e90a";
 }
-.icon-zoom:before {
+.icon-efficiency:before {
   content: "\e90b";
 }
-.icon-breakout:before {
+.icon-fast-delivery:before {
   content: "\e90c";
 }
-.icon-cafeteria:before {
+.icon-left-arrow:before {
   content: "\e90d";
 }
-.icon-call:before {
+.icon-like:before {
   content: "\e90e";
 }
-.icon-coffee:before {
+.icon-meeting:before {
   content: "\e90f";
+}
+.icon-menu:before {
+  content: "\e910";
+}
+.icon-pantry:before {
+  content: "\e911";
+}
+.icon-printer:before {
+  content: "\e912";
+}
+.icon-right-arrow:before {
+  content: "\e913";
+}
+.icon-stack:before {
+  content: "\e914";
+}
+.icon-staff:before {
+  content: "\e915";
+}
+.icon-tick:before {
+  content: "\e916";
+}
+.icon-wi-fi:before {
+  content: "\e917";
+}
+.icon-zoom:before {
+  content: "\e918";
 }
