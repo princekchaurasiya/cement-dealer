@@ -143,7 +143,7 @@
             <div class="row align-self-center justify-content-center footer-text">
                 <div class="col-lg-3 align-self-center halfcol">
                     <div class="row justify-content-center">
-                        <img class="img-fluid" src="assets/images/logo.png" alt="Cement Dealer Shop Logo"
+                        <img class="img-fluid" src="assets/images/logo-white.png" alt="Cement Dealer Shop Logo"
                             title="Cement Dealer Shop Logo" width="" height="">
                     </div>
                 </div>
@@ -188,8 +188,8 @@
                         Sunday: 9 AM - 8 PM
                     </p>
                     <p class="footer-contact text-white">
-                        <strong>Phone:</strong> <a href="tel:+91-9888727560">+91-9888727560</a><br>
-                        <strong>Email:</strong> <a href="mailto:admin@cementdealer.shop">admin@cementdealer.shop</a>
+                        <strong>Phone:</strong> <a href="tel:+91-9888727560" class="footer-link">+91-9888727560</a><br>
+                        <strong>Email:</strong> <a href="mailto:admin@cementdealer.shop" class="footer-link">admin@cementdealer.shop</a>
                     </p>
                 </div>
                 <!-- sticky mob starts here-->
@@ -200,7 +200,7 @@
                                 CALL NOW
                             </a>
                             <a class="col stickyenq text-center stickycol" href="" data-toggle="modal"
-                                data-target="#cementModal">
+                                data-target="#contact-form">
                                 ENQUIRE NOW
                             </a>
                         </div>

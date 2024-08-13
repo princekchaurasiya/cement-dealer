@@ -70,7 +70,7 @@
 
                 <div class="d-lg-block d-none">
                     <li class="nav-item navitem">
-                        <a href="./" class=" btn btn-custom " data-toggle="modal" data-target="#cementModal">Enquire
+                        <a href="./" class=" btn btn-custom " data-toggle="modal" data-target="#contact-form">Enquire
                             Now</a>
                     </li>
                 </div>
@@ -220,9 +220,9 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-6 skycol text-center">
                             <div class="relativeimgbox">
-                                <div class="absolutetexttop">Representative Image</div>
+                                <div class="absolutetextbottom">Top-Quality Bulk Cement, Order Online Now</div>
                                 <img id="skyimg1" class="img-fluid lazyload"
-                                    data-src="assets/images/gallery/cement-dealer-amenties-1.jpg"
+                                    data-src="assets/images/gallery/cement-dealership1.jpg"
                                     alt="Cement Dealer Shop - Best Cement Dealer in India" title="Cement Dealer Shop Amenities 1">
                                 <div class="overlay">
                                     <a class="amenicondiv skyimg" data-target="#skymodalcarousel" data-slide-to="0">
@@ -233,9 +233,9 @@
                         </div>
                         <div class="col-lg-6 skycol text-center">
                             <div class="relativeimgbox">
-                                <div class="absolutetexttop">Representative Image</div>
+                                <div class="absolutetextbottom">Find the Right Cement for Your Needs</div>
                                 <img id="skyimg2" class="img-fluid lazyload"
-                                    data-src="assets/images/gallery/cement-dealer-amenties-2.jpg"
+                                    data-src="assets/images/gallery/cement-dealership4.jpg"
                                     alt="Cement Dealer Shop - Best Cement Dealer in India" title="Cement Dealer Shop Amenities 2">
                                 <div class="overlay">
                                     <a class="amenicondiv skyimg" data-target="#skymodalcarousel" data-slide-to="1">
@@ -246,9 +246,9 @@
                         </div>
                         <div class="col-lg-6 skycol text-center">
                             <div class="relativeimgbox">
-                                <div class="absolutetexttop">Representative Image</div>
+                                <div class="absolutetextbottom">Get Expert Advice and Support Online Anytime</div>
                                 <img id="skyimg3" class="img-fluid lazyload"
-                                    data-src="assets/images/gallery/cement-dealer-amenties-3.jpg"
+                                    data-src="assets/images/gallery/cement-dealership3.jpg"
                                     alt="Cement Dealer Shop - Best Cement Dealer in India" title="Cement Dealer Shop Amenities 3">
                                 <div class="overlay">
                                     <a class="amenicondiv skyimg" data-target="#skymodalcarousel" data-slide-to="2">
@@ -259,9 +259,9 @@
                         </div>
                         <div class="col-lg-6 skycol text-center">
                             <div class="relativeimgbox">
-                                <div class="absolutetexttop">Representative Image</div>
+                                <div class="absolutetextbottom">Partnered with Top Brands for Your Industrial and Major Project Needs</div>
                                 <img id="skyimg4" class="img-fluid lazyload"
-                                    data-src="assets/images/gallery/cement-dealer-amenties-4.jpg"
+                                    data-src="assets/images/gallery/cement-dealership2.jpg"
                                     alt="Cement Dealer Shop - Best Cement Dealer in India" title="Cement Dealer Shop Amenities 4">
                                 <div class="overlay">
                                     <a class="amenicondiv skyimg" data-target="#skymodalcarousel" data-slide-to="3">
@@ -286,25 +286,25 @@
                                         <div id="skymodalcarousel" class="carousel slide" data-ride="carousel">
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
-                                                    <div class="absolutetexttop">Representative Image</div>
+                                                    <div class="absolutetextbottom">Top-Quality Bulk Cement, Order Online Now</div>
                                                     <img id="sky1" class="img-fluid" src=""
                                                         alt="Cement Dealer Shop - Best Cement Dealer in India"
                                                         title="Cement Dealer Shop Amenities 1">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <div class="absolutetexttop">Representative Image</div>
+                                                    <div class="absolutetextbottom">Find the Right Cement for Your Needs</div>
                                                     <img id="sky2" class="img-fluid" src=""
                                                         alt="Cement Dealer Shop - Best Cement Dealer in India"
                                                         title="Cement Dealer Shop Amenities 2">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <div class="absolutetexttop">Representative Image</div>
+                                                    <div class="absolutetextbottom">Get Expert Advice and Support Online Anytime</div>
                                                     <img id="sky3" class="img-fluid" src=""
                                                         alt="Cement Dealer Shop - Best Cement Dealer in India"
                                                         title="Cement Dealer Shop Amenities 3">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <div class="absolutetexttop">Representative Image</div>
+                                                    <div class="absolutetextbottom">Partnered with Top Brands for Your Industrial and Major Project Needs</div>
                                                     <img id="sky4" class="img-fluid" src=""
                                                         alt="Cement Dealer Shop - Best Cement Dealer in India"
                                                         title="Cement Dealer Shop Amenities 4">
@@ -356,63 +356,63 @@
                             <div class="card amenitiescard">
                                 <span class="icon-breakout amenities-icon"></span>
                                 <p class="amentext">Efficient Bulk Cement Ordering System</p>
-                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#cementModal">Enquire now</a>
+                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#contact-form">Enquire now</a>
                             </div>
                         </div>
                         <div class="d-flex align-self-center justify-content-center amencol">
                             <div class="card amenitiescard">
                                 <span class="icon-cafeteria amenities-icon"></span>
                                 <p class="amentext">Convenient Online Cement Booking</p>
-                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#cementModal">Enquire now</a>
+                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#contact-form">Enquire now</a>
                             </div>
                         </div>
                         <div class="d-flex align-self-center justify-content-center amencol">
                             <div class="card amenitiescard">
                                 <span class="icon-coffee amenities-icon"></span>
                                 <p class="amentext">Comprehensive Cement Information and Support</p>
-                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#cementModal">Enquire now</a>
+                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#contact-form">Enquire now</a>
                             </div>
                         </div>
                         <div class="d-flex align-self-center justify-content-center amencol">
                             <div class="card amenitiescard">
                                 <span class="icon-conference amenities-icon"></span>
                                 <p class="amentext">Personalized Cement Recommendations</p>
-                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#cementModal">Enquire now</a>
+                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#contact-form">Enquire now</a>
                             </div>
                         </div>
                         <div class="d-flex align-self-center justify-content-center amencol">
                             <div class="card amenitiescard">
                                 <span class="icon-meeting amenities-icon"></span>
                                 <p class="amentext">Flexible Delivery Options for Cement Orders</p>
-                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#cementModal">Enquire now</a>
+                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#contact-form">Enquire now</a>
                             </div>
                         </div>
                         <div class="d-flex align-self-center justify-content-center amencol">
                             <div class="card amenitiescard">
                                 <span class="icon-pantry amenities-icon"></span>
                                 <p class="amentext">Accessible Bulk Order Management</p>
-                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#cementModal">Enquire now</a>
+                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#contact-form">Enquire now</a>
                             </div>
                         </div>
                         <div class="d-flex align-self-center justify-content-center amencol">
                             <div class="card amenitiescard">
                                 <span class="icon-printer amenities-icon"></span>
                                 <p class="amentext">Streamlined Cement Purchase and Delivery</p>
-                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#cementModal">Enquire now</a>
+                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#contact-form">Enquire now</a>
                             </div>
                         </div>
                         <div class="d-flex align-self-center justify-content-center amencol">
                             <div class="card amenitiescard">
                                 <span class="icon-staff amenities-icon"></span>
                                 <p class="amentext">Expert Support for All Your Cement Needs</p>
-                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#cementModal">Enquire now</a>
+                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#contact-form">Enquire now</a>
                             </div>
                         </div>
                         <div class="d-flex align-self-center justify-content-center amencol">
                             <div class="card amenitiescard">
                                 <span class="icon-wi-fi amenities-icon"></span>
                                 <p class="amentext">Rapid Response and Efficient Service</p>
-                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#cementModal">Enquire now</a>
+                                <a class="btn btn-custom configbtn3 mt-3" href="" data-toggle="modal" data-target="#contact-form">Enquire now</a>
                             </div>
                         </div>
                     </div>
@@ -452,11 +452,11 @@
                                             <div class="carousel-inner">
                                                 <!-- Carousel Items -->
                                                 <div class="carousel-item active">
-                                                    <div class="absolutetexttop">Representative Image</div>
+                                                    <div class="absolutetextbottom">Representative Image</div>
                                                     <img id="zm1" class="img-fluid" src="" alt="Cement dealership services" title="Cement Dealership Amenities 1">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <div class="absolutetexttop">Representative Image</div>
+                                                    <div class="absolutetextbottom">Representative Image</div>
                                                     <img id="zm2" class="img-fluid" src="" alt="Cement dealership services" title="Cement Dealership Amenities 2">
                                                 </div>
                                                 <!-- Add more carousel items as needed -->
@@ -517,7 +517,7 @@
                                                 <img src="assets/images/bulk-cement.jpg" alt="Bulk Cement Ordering" class="img-fluid pricing-image cement-solution-div-image">
                                             </p>
                                         </div>
-                                        <a class="btn btn-custom configbtn3 mt-3" href="#pricing-section" data-toggle="modal" data-target="#cementModal">
+                                        <a class="btn btn-custom configbtn3 mt-3" href="#pricing-section" data-toggle="modal" data-target="#contact-form">
                                             Explore Bulk Pricing Options
                                         </a>
                                         </p>
@@ -545,7 +545,7 @@
                                                 <img src="assets/images/custom-cement.png" alt="Customized Cement Solutions" class="img-fluid pricing-image cement-solution-div-image">
                                             </p>
                                         </div>
-                                        <a class="btn btn-custom configbtn3 mt-3" href="#pricing-section" data-toggle="modal" data-target="#cementModal">
+                                        <a class="btn btn-custom configbtn3 mt-3" href="#pricing-section" data-toggle="modal" data-target="#contact-form">
                                             Explore Customized Solutions
                                         </a>
                                         </p>
@@ -814,7 +814,7 @@
             <div class="row align-self-center justify-content-center footer-text">
                 <div class="col-lg-3 align-self-center halfcol">
                     <div class="row justify-content-center">
-                        <img class="img-fluid" src="assets/images/logo.png" alt="Cement Dealer Shop Logo"
+                        <img class="img-fluid" src="assets/images/logo-white.png" alt="Cement Dealer Shop Logo"
                             title="Cement Dealer Shop Logo" width="" height="">
                     </div>
                 </div>
@@ -859,8 +859,8 @@
                         Sunday: 9 AM - 8 PM
                     </p>
                     <p class="footer-contact text-white">
-                        <strong>Phone:</strong> <a href="tel:+91-9888727560">+91-9888727560</a><br>
-                        <strong>Email:</strong> <a href="mailto:admin@cementdealer.shop">admin@cementdealer.shop</a>
+                        <strong>Phone:</strong> <a href="tel:+91-9888727560" class="footer-link">+91-9888727560</a><br>
+                        <strong>Email:</strong> <a href="mailto:admin@cementdealer.shop" class="footer-link">admin@cementdealer.shop</a>
                     </p>
                 </div>
                 <!-- sticky mob starts here-->
@@ -871,7 +871,7 @@
                                 CALL NOW
                             </a>
                             <a class="col stickyenq text-center stickycol" href="" data-toggle="modal"
-                                data-target="#cementModal">
+                                data-target="#contact-form">
                                 ENQUIRE NOW
                             </a>
                         </div>
