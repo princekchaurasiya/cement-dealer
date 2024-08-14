@@ -70,7 +70,7 @@
 
                 <div class="d-lg-block d-none">
                     <li class="nav-item navitem">
-                        <a href="./" class=" btn btn-custom " data-toggle="modal" data-target="#contact-form">Enquire
+                        <a href="#contact-form" class=" btn btn-custom " data-toggle="modal" data-target="#contactModal">Enquire
                             Now</a>
                     </li>
                 </div>
@@ -731,6 +731,8 @@
         </div>
     </section>
 
+
+
     <div id="contactModal" class="modal fade" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content no-border-radius frmbdr">
@@ -740,7 +742,7 @@
                             <span class="icon-close"></span>
                         </button>
                     </div>
-                    <form id="contactForm" action="contact.php" method="POST">
+                    <form id="contactForm" action="contactf2.php" method="POST">
                         <h2 class="form-header darkbrown-header text-center">
                             Enquire Now
                         </h2>
@@ -749,13 +751,13 @@
                             <label for="name" class="formlabel">
                                 Name*
                             </label>
-                            <input type="text" class="form-control custfield" name="name" placeholder="Name" id="name" required>
+                            <input type="text" class="form-control custfield" name="namef2" placeholder="Name" id="name" required>
                         </div>
                         <div class="form-group">
                             <label for="email" class="formlabel">
-                                Email
+                                Email*
                             </label>
-                            <input type="email" class="form-control custfield" name="email" placeholder="Email Address" id="email">
+                            <input type="email" class="form-control custfield" name="emailf2" placeholder="Email Address" id="email" required>
                         </div>
                         <div class="form-group">
                             <label for="phone" class="formlabel">
@@ -767,7 +769,60 @@
                                         +91
                                     </span>
                                 </div>
-                                <input type="tel" placeholder="Mobile Number" class="form-control custfield" name="phone" id="phone" pattern="[6-9]{1}[0-9]{9}" required>
+                                <input type="tel" placeholder="Mobile Number" class="form-control custfield" name="phonef2" id="phone" pattern="[6-9]{1}[0-9]{9}" required>
+                            </div>
+                        </div>
+                        <div class="form-group frmsubmit">
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-custom">
+                                    Submit
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <p class="text-center mb-0 p-3"><a class="numlink" href="tel:+91-9888727560"><span class="icon-call pr-2"></span>+91-9888727560</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contactModalAutoPopUp" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content no-border-radius frmbdr">
+                <div class="modal-body frmbox">
+                    <div class="">
+                        <button class="close modal-close" data-dismiss="modal" aria-hidden="true">
+                            <span class="icon-close"></span>
+                        </button>
+                    </div>
+                    <form id="contactForm" action="contactf3.php" method="POST">
+                        <h2 class="form-header darkbrown-header text-center">
+                            Enquire Now
+                        </h2>
+                        <hr class="hrbrown">
+                        <div class="form-group">
+                            <label for="name" class="formlabel">
+                                Name*
+                            </label>
+                            <input type="text" class="form-control custfield" name="namef3" placeholder="Name" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="formlabel">
+                                Email*
+                            </label>
+                            <input type="email" class="form-control custfield" name="emailf3" placeholder="Email Address" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="formlabel">
+                                Phone*
+                            </label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text custigp">
+                                        +91
+                                    </span>
+                                </div>
+                                <input type="tel" placeholder="Mobile Number" class="form-control custfield" name="phonef3" id="phone" pattern="[6-9]{1}[0-9]{9}" required>
                             </div>
                         </div>
                         <div class="form-group frmsubmit">
@@ -785,58 +840,6 @@
     </div>
 
 
-    <div id="contactModal" class="modal fade" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content no-border-radius frmbdr">
-                <div class="modal-body frmbox">
-                    <div class="">
-                        <button class="close modal-close" data-dismiss="modal" aria-hidden="true">
-                            <span class="icon-close"></span>
-                        </button>
-                    </div>
-                    <form id="contactForm" action="contact.php" method="POST">
-                        <h2 class="form-header darkbrown-header text-center">
-                            Enquire Now
-                        </h2>
-                        <hr class="hrbrown">
-                        <div class="form-group">
-                            <label for="name" class="formlabel">
-                                Name*
-                            </label>
-                            <input type="text" class="form-control custfield" name="name" placeholder="Name" id="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email" class="formlabel">
-                                Email
-                            </label>
-                            <input type="email" class="form-control custfield" name="email" placeholder="Email Address" id="email">
-                        </div>
-                        <div class="form-group">
-                            <label for="phone" class="formlabel">
-                                Phone*
-                            </label>
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text custigp">
-                                        +91
-                                    </span>
-                                </div>
-                                <input type="tel" placeholder="Mobile Number" class="form-control custfield" name="phone" id="phone" pattern="[6-9]{1}[0-9]{9}" required>
-                            </div>
-                        </div>
-                        <div class="form-group frmsubmit">
-                            <div class="text-center">
-                                <button type="submit" class="btn btn-custom">
-                                    Submit
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                    <p class="text-center mb-0 p-3"><a class="numlink" href="tel:+91-9888727560"><span class="icon-call pr-2"></span>+91-9888727560</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- end of contact seccontact -->
     <!-- about secabout -->
