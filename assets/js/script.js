@@ -1,9 +1,15 @@
 /* Query String Grab */
 $(document).ready(function () {
+  // Function to get query string parameter values
+  function getQueryStringParam(name) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(name);
+  }
+
   // Check if the query string has already been stored
   if (!sessionStorage.getItem('qsGet')) {
     // Get the query string part from the URL
-    let queryString = window.location.href.split('?')[1] || '';
+    let queryString = window.location.search.substring(1);
 
     // If there is no query string, set the default campaign
     if (queryString === '') {
@@ -17,9 +23,14 @@ $(document).ready(function () {
 
   // Set the value of the input with class 'querystring'
   $(".querystring").val(sessionStorage.getItem('qsVal'));
+
+  // Update form fields with campaign and csource values
+  $(".querystring").each(function () {
+    const campaign = getQueryStringParam('campaign') || 'DefaultCampaign';
+    const csource = getQueryStringParam('csource') || 'DefaultSource';
+    $(this).val(`campaign=${campaign}&csource=${csource}`);
+  });
 });
-
-
 
 /* Form Reset on Load */
 $(document).ready(() => $("form").trigger('reset'));
