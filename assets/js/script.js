@@ -1,23 +1,24 @@
 /* Query String Grab */
 $(document).ready(function () {
-  // Check if 'qsGet' is not set in sessionStorage
+  // Check if the query string has already been stored
   if (!sessionStorage.getItem('qsGet')) {
-    // Get the query string part of the URL
+    // Get the query string part from the URL
     let queryString = window.location.href.split('?')[1] || '';
 
-    // If query string is empty, assign a default campaign value
-    if (!queryString) {
+    // If there is no query string, set the default campaign
+    if (queryString === '') {
       queryString = 'campaign=Digital%20Direct&csource=Digital%20Direct';
     }
 
-    // Store the query string (or default campaign) in sessionStorage
+    // Store the query string in sessionStorage
     sessionStorage.setItem('qsVal', queryString);
     sessionStorage.setItem('qsGet', 'true');
   }
 
-  // Set the value of elements with the 'querystring' class to the stored query string
+  // Set the value of the input with class 'querystring'
   $(".querystring").val(sessionStorage.getItem('qsVal'));
 });
+
 
 
 /* Form Reset on Load */
