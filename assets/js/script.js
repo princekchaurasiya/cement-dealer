@@ -26,8 +26,8 @@ $(document).ready(function () {
 
   // Update form fields with campaign and csource values
   $(".querystring").each(function () {
-    const campaign = getQueryStringParam('campaign') || 'DefaultCampaign';
-    const csource = getQueryStringParam('csource') || 'DefaultSource';
+    const campaign = getQueryStringParam('campaign') || 'Digital Direct';
+    const csource = getQueryStringParam('csource') || 'Organic Lead';
     $(this).val(`campaign=${campaign}&csource=${csource}`);
   });
 });
