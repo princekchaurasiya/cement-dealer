@@ -587,29 +587,36 @@
                     </p>
                 </div>
             </div>
-            <div class="row justify-content-center mt-5">
-                <div class="col-lg-10">
-                    <div class="row">
-                        <div class="col-lg-4 text-center">
+            <div class="row justify-content-center ">
+                <div class="col-lg-12 ">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 text-center configcard m-4">
                             <div class="cement-card">
                                 <p class="cement-title">
                                     OPC 53 Grade Cement
                                 </p>
+
                                 <hr class="hrconfig">
+                                <div class="p-4">
+                                    <img src="assets/images/cement-dealer-1.jpg" alt="" class="img-fluid">
+                                </div>
                                 <p class="section-subtext">
-                                    High-strength cement with a minimum 28-day compressive strength of 53 MPa, perfect for demanding construction projects.
+                                    High-strength cement with a minimum 28-day compressive strength of 53 MPa, perfect for demanding construction projects & industry.
                                 </p>
                                 <a class="btn btn-custom mt-3" href="#contact-form" data-toggle="modal" data-target="#contactModal">
                                     Request a Quote
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 text-center">
+                        <div class="col-lg-3 text-center configcard m-4 ">
                             <div class="cement-card">
                                 <p class="cement-title">
                                     OPC 43 Grade Cement
                                 </p>
                                 <hr class="hrconfig">
+                                <div class="p-4">
+                                    <img src="assets/images/cement-dealer-2.jpg" alt="" class="img-fluid">
+                                </div>
                                 <p class="section-subtext">
                                     Versatile and cost-effective cement suitable for a wide range of construction applications, providing a balance of strength and affordability.
                                 </p>
@@ -618,12 +625,15 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 text-center">
+                        <div class="col-lg-3 text-center configcard m-4">
                             <div class="cement-card">
                                 <p class="cement-title">
                                     PPC Cement
                                 </p>
                                 <hr class="hrconfig">
+                                <div class="p-4">
+                                    <img src="assets/images/cement-dealer-3.jpg" alt="" class="img-fluid">
+                                </div>
                                 <p class="section-subtext">
                                     A blend of clinker, pozzolanic material, and gypsum, offering versatile applications and performance similar to 33-grade cement.
                                 </p>
@@ -633,26 +643,32 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-4 text-center mt-4">
+                        <div class="col-lg-3 text-center configcard m-4">
                             <div class="cement-card">
                                 <p class="cement-title">
                                     PSC Cement
                                 </p>
                                 <hr class="hrconfig">
+                                <div class="p-4">
+                                    <img src="assets/images/cement-dealer-4.jpg" alt="" class="img-fluid">
+                                </div>
                                 <p class="section-subtext">
-                                    Eco-friendly Portland Slag Cement (PSC) that provides durability and long-lasting strength for various construction needs.
+                                    Eco-friendly Portland Slag Cement (PSC) that provides durability and long-lasting strength for various construction needs & cement requirements.
                                 </p>
                                 <a class="btn btn-custom mt-3" href="#contact-form" data-toggle="modal" data-target="#contactModal">
                                     Request a Quote
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 text-center mt-4">
+                        <div class="col-lg-3 text-center configcard m-4">
                             <div class="cement-card">
                                 <p class="cement-title">
                                     OPC 33 Grade Cement
                                 </p>
                                 <hr class="hrconfig">
+                                <div class="p-4">
+                                    <img src="assets/images/cement-dealer-5.jpg" alt="" class="img-fluid">
+                                </div>
                                 <p class="section-subtext">
                                     Ideal for non-structural applications, offering good strength for general construction and repair work.
                                 </p>
@@ -662,12 +678,15 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 text-center mt-4">
+                        <div class="col-lg-3 text-center configcard m-4">
                             <div class="cement-card">
                                 <p class="cement-title">
                                     Ready Mix Concrete
                                 </p>
                                 <hr class="hrconfig">
+                                <div class="p-4">
+                                    <img src="assets/images/cement-dealer-6.jpg" alt="" class="img-fluid">
+                                </div>
                                 <p class="section-subtext">
                                     Conveniently produced and delivered to your site, Ready Mix Concrete ensures consistent quality and saves time on construction projects.
                                 </p>
@@ -680,21 +699,34 @@
                 </div>
             </div>
             <div class="row justify-content-center mt-5">
-                <div class="col-lg-10 text-center">
-                    <h3 class="section-subheader lightbrown-header">
-                        Why Choose Us?
-                    </h3>
-                    <ul class="list-unstyled">
-                        <li>Get a Solution for All Industries</li>
-                        <li>Experience You Can Trust</li>
-                        <li>Quality Craftsmanship</li>
-                        <li>100% Satisfaction Guarantee</li>
-                        <li>Accurate Testing Processes</li>
-                    </ul>
-                    <a class="btn btn-custom mt-3" href="#contact-form" data-toggle="modal" data-target="#contactModal">
-                        Request a Quote
-                    </a>
+                <div class="col-lg-10">
+                    <div class="row mt-5">
+                        <div class="col-lg-6 text-center align-self-center">
+
+                            <div>
+                                <img src="assets/images/cement-dealer-7.jpg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 text-center align-self-center configcard">
+
+                            <h3 class="section-subheader lightbrown-header">
+                                Why Choose Us?
+                            </h3>
+                            <ul class="list-unstyled">
+                                <li>Get a Solution for All Industries</li>
+                                <li>Experience You Can Trust</li>
+                                <li>Quality Craftsmanship</li>
+                                <li>100% Satisfaction Guarantee</li>
+                                <li>Accurate Testing Processes</li>
+                            </ul>
+                            <a class="btn btn-custom mt-3" href="#contact-form" data-toggle="modal" data-target="#contactModal">
+                                Request a Quote
+                            </a>
+                        </div>
+
+                    </div>
                 </div>
+
             </div>
         </div>
     </section>
